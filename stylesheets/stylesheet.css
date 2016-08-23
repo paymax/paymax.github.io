@@ -4,11 +4,10 @@
 body {
   padding: 0;
   margin: 0;
-  font-family: pingfontweb, Helvetica, Roboto, Arial, PingFang SC, Hiragino Sans GB, Microsoft Yahei, Microsoft Jhenghei, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  color: #606c71;
-  font-weight: 300; }
+  color: #606c71; }
 
 a {
   color: #1e6bb8;
@@ -57,12 +56,12 @@ a {
 .page-header {
   color: #fff;
   text-align: center;
-  background-color: #28a7e1;
-/*  background-image: linear-gradient(120deg, #155799, #159957);*/ }
+  background-color: #159957;
+  background-image: linear-gradient(120deg, #155799, #159957); }
 
 @media screen and (min-width: 64em) {
   .page-header {
-    padding: 2.8rem 6rem; } }
+    padding: 5rem 6rem; } }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
   .page-header {
@@ -113,12 +112,12 @@ a {
   margin-top: 2rem;
   margin-bottom: 1rem;
   font-weight: normal;
-  color: #28a7e1; }
+  color: #159957; }
 .main-content p {
   margin-bottom: 1em; }
 .main-content code {
   padding: 2px 4px;
-  font-family: pingfontweb, Helvetica, Roboto, Arial, PingFang SC, Hiragino Sans GB, Microsoft Yahei, Microsoft Jhenghei, sans-serif;
+  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
   font-size: 0.9rem;
   color: #383e41;
   background-color: #f3f6fa;
